@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+#color-display {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+#message {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#difficulty-buttons {
+    margin-bottom: 20px;
+}
+
+#difficulty-buttons button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#difficulty-buttons button:hover {
+    background-color: #2980b9;
+}
+
+#color-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.color-button {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reset {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#reset:hover {
+    background-color: #2980b9;
+}
